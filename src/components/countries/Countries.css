@@ -1,0 +1,21 @@
+.countries {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.flag {
+  aspect-ratio: 16/9;
+}
+
+@media (width > 768px) {
+  .countries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 992px) {
+  .countries {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

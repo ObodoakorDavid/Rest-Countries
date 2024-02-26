@@ -1,0 +1,8 @@
+.option {
+  transition: 0.3s ease-in-out;
+}
+
+.option:hover {
+  background-color: var(--bg-color);
+  cursor: pointer;
+}

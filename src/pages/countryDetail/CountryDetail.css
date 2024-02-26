@@ -1,0 +1,10 @@
+.detail-flag {
+  width: 100%;
+}
+
+@media (width > 768px) {
+  .detail-flag {
+    width: 50%;
+    max-width: 500px;
+  }
+}
